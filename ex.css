@@ -1,0 +1,13 @@
+.md{
+	color:red;
+	text-align:center;
+	background-color:black;
+	background-size:50%;
+	font-family:cursive;
+}
+
+p{
+  	color:blue;
+	text-align:center;
+	font-style:italic;
+}

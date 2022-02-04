@@ -1,0 +1,19 @@
+<html>
+	<button onclick="getlocation()" >click me</button>
+	<div id="location"></div>
+
+	<script>
+		var x = document.getelemengByid("location");
+		function getlocation()
+		{
+			if(navigator.geolacation)
+				{
+				alert("success")
+				}
+			else{
+				alert("fail")
+			    }
+			
+		}
+	</script>
+</html>
